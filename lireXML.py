@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from lxml import etree
+from lxml import html
 import xml.etree.ElementTree  as ET 
 
 """ Fonction script"""   
@@ -17,6 +18,8 @@ def arbreXML (pathDataFileXML):
             etage.append(leaf1.tag)
             for leaf2 in leaf1 :
                 etage.append(leaf2.tag)
+    test = leaf1.find("{http://www.mediawiki.org/xml/export-0.10/}text") # regarder si on peut ou pas recuperer ceci dans une var à la con
+    print(test.text)
     return etage
 
 def cheminParcoursArbre(liste):
@@ -43,25 +46,41 @@ def nettoyageListe(liste):
 
 def textBaliseText(pathXML, pathArbre):
     # Entree : prends 2 variables string
-    #           -> pathXML : c'est le chemin vers le dossier XML
+    #           -> pathXML : c'est le chemin vers le dossier XML 
+    #           -> pathXML : "listSerialKiller.xml"
     #           -> pathArbre : c'est le chemin dans l'arbre pour acceder au texte
+    #           -> pathArbre : /{http://www.mediawiki.org/xml/export-0.10/}mediawiki/{http://www.mediawiki.org/xml/export-0.10/}page/{http://www.mediawiki.org/xml/export-0.10/}revision/{http://www.mediawiki.org/xml/export-0.10/}text
     # Sortie : le texte dans la balise texte
     # Objectif : renvoyer le text qui est dans la balise text
+    # Problème : lien hypertext car str ne pose pas de pb mais str hypertext il aime pas
     tree = etree.parse(pathXML)
-    for elt in tree.xpath(pathArbre):
-        print(elt.text)
+    print("Voici pathArbre : "+ pathArbre)
+    print("Voici le type de pathArbre "+str(type(pathArbre)))
+    newText = tree.findtext(pathArbre)
+    print(newText)
+    
+
+def conversionArbreText (pathDataFileXML):
+    # Entree : string qui est le chemin vers nos données XML
+    # Sortie : l'objet de la balise soir un texte
+    tree = etree.parse(pathDataFileXML) # c'est le dossier dans lequel on a du XML
+    root = tree.getroot() # permet de recuperer la racine
+    #Boucle qui va donner a chaque fois le nom des elements dans les balises depuis root
+    etage = [root.tag] # la base de notre arbre va etre sa racine root.tag
+    for leaf in root:
+        etage.append(leaf.tag)
+        for leaf1 in leaf:
+            etage.append(leaf1.tag)
+            for leaf2 in leaf1 :
+                etage.append(leaf2.tag)
+    text = leaf1.find("{http://www.mediawiki.org/xml/export-0.10/}text")
+    # je regarde dans leaf1 si j'ai une balise text
+    # je stock mon text dans une var
+    return text.text
 
 """Traitement de l'information""" 
 
 pathFile = "listSerialKiller.xml"
 listXML = arbreXML(pathFile)
-
-
-listeClean = nettoyageListe(listXML)
-for elt in listeClean:
-    print(elt)
-    
-pathTree = cheminParcoursArbre(listeClean)
-print("Voici le path que l'on recherche : "+pathTree)
-
-textBaliseText(pathFile, pathTree)
+texte = conversionArbreText(pathFile)
+print(texte)
