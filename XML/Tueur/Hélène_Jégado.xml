@@ -1,0 +1,176 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.21</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Hélène Jégado</title>
+    <ns>0</ns>
+    <id>1005041</id>
+    <revision>
+      <id>930411164</id>
+      <parentid>913457172</parentid>
+      <timestamp>2019-12-12T08:38:54Z</timestamp>
+      <contributor>
+        <username>Inhighspeed</username>
+        <id>322290</id>
+      </contributor>
+      <comment>/* Early life and crimes */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="10125" xml:space="preserve">{{no footnotes|date=May 2017}}
+{{Infobox person
+| name               =  Hélène Jégado
+| image              =  Hélène Jégado.jpg
+| alt                = 
+| caption            = Hélène Jégado at her trial, historical print (ca. 1851)
+| birth_name         =  &lt;!-- only use if different from name above --&gt;
+| birth_date         =  &lt;!-- {{birth date and age|YYYY|MM|DD}} for living people supply only the year with {{Birth year and age|YYYY}} unless the exact date is already widely published, as per [[WP:DOB]]. For people who have died, use {{Birth date|YYYY|MM|DD}}. --&gt; 1803
+| birth_place        = [[Plouhinec, Morbihan|Plouhinec]], [[Morbihan]], [[Brittany]]
+| baptised           =  &lt;!-- will not display if birth_date is entered --&gt;
+| death_date         =  &lt;!-- {{Death date and age|YYYY|MM|DD|YYYY|MM|DD}} (death date then birth date) --&gt; 26 February 1852
+| death_place        = [[Rennes]], Brittany 
+| death_cause        = Execution by guillotine 
+| burial_place       =  &lt;!-- may be used instead of resting_place and resting_place_coordinates (displays "Burial place" as label) --&gt;
+| burial_coordinates =  &lt;!-- {{coord|LAT|LONG|type:landmark|display=inline}} --&gt;
+| residence          = 
+| nationality        = 
+| other_names        = 
+| citizenship        = 
+| education          = 
+| occupation         = 
+| years_active       = 
+| era                = 
+| known_for          = 
+| home_town          = 
+| criminal_charge    =  &lt;!-- Criminality parameters should be supported with citations from reliable sources --&gt; 3 murders, 3 attempted murders and 11 thefts
+| criminal_penalty   = Execution 
+| criminal_status    = 
+| spouse             =  &lt;!-- Use article title or common name --&gt;
+| partner            =  &lt;!-- (unmarried long-term partner) --&gt;
+| children           = 
+| parents            =  &lt;!-- overrides mother and father parameters --&gt;
+| mother             =  &lt;!-- may be used (optionally with father parameter) in place of parents parameter (displays "Parent(s)" as label) --&gt;
+| father             =  &lt;!-- may be used (optionally with mother parameter) in place of parents parameter (displays "Parent(s)" as label) --&gt;
+| relatives          = 
+| family             = 
+| footnotes          = 
+}}
+
+'''Hélène Jégado''' (1803 &amp;ndash; 26 February 1852) was a [[France|French]] domestic servant and [[serial killer]]. She is believed to have murdered as many as 36 people with [[arsenic]] over a period of 18 years. After an initial period of activity, between 1833 and 1841, she seems to have stopped for nearly ten years before a final spree in 1851.
+
+==Early life and crimes==
+Hélène Jégado was born on a small farm in [[Plouhinec, Morbihan|Plouhinec (Morbihan)]], near [[Lorient]] in [[Brittany]]. She lost her mother at the age of seven and was sent to work with two aunts who were servants at the [[rectory]] of [[Bubry]]. After 17 years, she accompanied an aunt to the town of [[Séglien]]. She became a cook for the [[parish priest|curé]] where an incident arose where she was accused of adding [[hemp]] from his grain house to his soup.
+
+Her first suspected poisoning occurred in 1833 when she was employed by another priest, Fr. François Le Drogo, in the nearby village of [[Guern]]. In the three months, between June 28 and October 3, seven members of the household died suddenly, including the priest himself, his aging mother and father, and her own visiting sister, Anne Jégado.  Her apparent sorrow and pious behaviour was so convincing she was not suspected. Coming shortly after the [[cholera]] epidemic of 1832 the deaths may have been put down to natural causes.
+
+Jégado returned to Bubry to replace her sister where three people died in the course of three months, including her other aunt, all of whom she cared for at their bedside.  She continued to [[Locminé]], where she boarded with a [[needleworker]], Marie-Jeanne Leboucher—both Leboucher and her daughter died and a son fell ill.  It is possible that the son survived because he did not accept Jégado's ministrations.  When in the same town, the widow Lorey offered Jégado a room; she died after eating a soup her new boarder had prepared. In May 1835, she was hired by Madame Toussaint and four more deaths followed. By this point in time, she had already put seventeen people in their graves.
+
+Later in 1835, Jégado was employed as a servant in a [[convent]] in [[Auray]], but rapidly dismissed after several incidents of vandalism and sacrilege.
+
+Jégado worked as a cook in other households in Auray, then [[Pontivy]], [[Lorient]], and [[Port-Louis, Morbihan|Port-Louis]] where she was employed only briefly in each one.  Often, someone fell ill or died. Among her most infamous murders is of a child, little Marie Bréger, who died at the Château de Soye ([[Ploemeur]]) in May 1841, ten years and one month before her final arrest. Most victims died showing symptoms corresponding to [[arsenic]] poisoning, though she was never caught with arsenic in her possession. There is no record of suspected deaths from late 1841 to 1849, but a number of her employers later reported thefts; she was apparently a [[kleptomania]]c and was caught stealing several times.
+
+Her career took a new turn in 1849 when she moved to [[Rennes]], the capital city of the region.
+
+Although there is not much information stating why she committed these crimes, it can generally be linked to psychological issues. The psychopathology model explains that her offenses can be linked to her psychological problems. It is possible that these problems erupted at a young age after her mother died. It is not uncommon for a child to develop abandoned child syndrome due to the parents passing. Jégado once stated that murdering people gave her a sense of power, which she enjoyed.
+
+==Arrest==
+In 1850, Jégado joined the household staff of [[Théophile Bidard]], a law professor at the [[University of Rennes 1|University of Rennes]]. One of his servants, Rose Tessier, fell ill and died when Jégado tended her.  In 1851, one of the other maids, Rosalie Sarrazin, fell ill as well and died.  Two doctors had tried to save Sarrazin and because the symptoms were similar to those of Tessier, they convinced the relatives to permit an [[autopsy]].  Jégado aroused suspicion when she announced her innocence before she was even asked anything, and she was arrested on July 1, 1851.
+
+Later inquiries linked her to 23 suspected deaths by poisoning between 1833 and 1841, but none of these were thoroughly investigated since they were outside the ten-year limit for prosecution and there was no scientific evidence.  Local folklore has attributed to her many unexplained deaths, some of which were almost certainly due to natural causes. The most reliable estimate is that she probably committed about 36 murders.
+
+==Trial==
+Jégado's trial began on December 6, 1851 but, due to French laws of permissible [[evidence]] and [[statute of limitations]], she was accused only of three murders, three [[attempted murder]]s and 11 thefts. At least one later case appears to have been dropped since it involved a child and police were reluctant to upset the parents by an exhumation. Jégado's behaviour in court was erratic, changing from humble mutterings to loud pious shouting and occasional violent outbursts against her accusers. She consistently denied she even knew what arsenic was, despite evidence to the contrary. Doctors who had examined her victims had not usually noticed anything suspicious, but when the most recent victims were exhumed, they showed overwhelming evidence of arsenic and possibly [[antimony]].
+
+The defence lawyer, Magloire Dorange, made a remarkable closing speech, arguing that she needed more time than most to repent and could be spared the death penalty since she was dying of cancer anyway.
+
+The case attracted little attention at the time, pushed off the front pages by the [[French coup of 1851|coup d'état in Paris]].
+
+Jégado was sentenced to death by [[guillotine]] and executed in front of a large crowd of onlookers on the Champ-de-Mars in Rennes on February 26, 1852.
+
+==References==
+There are few comprehensive accounts in English.
+* [[Horace Williams Fuller|Fuller, Horace W.]] (1889), ''Green Bag'', vol. 1, Boston: The Boston Book Co., ''[https://books.google.com/books?id=4gctAAAAIAAJThe Causes Célèbres, Hélène Jégado]'', pp.&amp;nbsp;493–497.
+*Gaute, J.H.H. &amp; Odell, Robin (1996), ''The New Murderer's Who's Who'', London: Harrap Books.
+*Griffiths, Arthur  (1898), ''Mysteries of Police and Crime'', London.
+*Heppenstall, Rayner (1970), ''French Crime in the Romantic Age'', London: H Hamilton.
+*Meazey, Peter (2012), ''The Forgotten Poisoner, the life and crimes of Hélène Jégado'', Amazon, Kindle.
+*Wraxall, Lascelles (1863), ''Criminal Celebrities'', London.
+
+'''In French''':
+*Bouchardon, Pierre (1937), ''Hélène Jégado'', Paris: Albin Michel.
+*Meazey, Peter (1999), '' La Jégado: Histoire de la célèbre empoisonneuse'', Guingamp (22)and paperback (2006).
+
+'''Fictionalized accounts''' :
+*Teulé, Jean (2013), ''Fleur de Tonnerre'', Paris: Éditions Julliard. 
+**English translation (2014), ''The Poisoning Angel'', London: Gallic Books.
+
+==External links==
+*[http://la-jegado.monsite.orange.fr  Visuals - contemporary engravings. Site in French with author contact and links]
+
+{{Authority control}}
+
+{{DEFAULTSORT:Jegado, Helene}}
+[[Category:1803 births]]
+[[Category:1852 deaths]]
+[[Category:People from Lorient]]
+[[Category:People executed for murder]]
+[[Category:Poisoners]]
+[[Category:Executed serial killers]]
+[[Category:French female murderers]]
+[[Category:French female serial killers]]
+[[Category:Executed French women]]
+[[Category:People executed by the Second French Empire]]
+[[Category:People convicted of murder by France]]
+[[Category:French people convicted of murder]]
+[[Category:People executed by guillotine]]
+[[Category:Executed French people]]
+[[Category:People executed by France by decapitation]]
+[[Category:Executed people from Brittany]]
+[[Category:French domestic workers]]
+[[Category:Murder in 1831]]
+[[Category:Murder in 1833]]
+[[Category:Murder in 1851]]</text>
+      <sha1>ec8zveliruxtlkewg1rwsm6xdklkfbb</sha1>
+    </revision>
+  </page>
+</mediawiki>

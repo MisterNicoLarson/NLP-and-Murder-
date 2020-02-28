@@ -1,0 +1,136 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.21</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Genene Jones</title>
+    <ns>0</ns>
+    <id>4073953</id>
+    <revision>
+      <id>936706064</id>
+      <parentid>936312990</parentid>
+      <timestamp>2020-01-20T14:13:56Z</timestamp>
+      <contributor>
+        <username>Brossow</username>
+        <id>483309</id>
+      </contributor>
+      <comment>Cleaned up using [[WP:AutoEd|AutoEd]]- Reference edited with [[Wikipedia:ProveIt|ProveIt]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="13551" xml:space="preserve">{{BLP sources|date=August 2013}}
+{{Infobox serial killer
+| name=Genene Jones
+| image= Genene Jones (murderer).png
+| image_size= 200px
+| caption= [[Texas Department of Criminal Justice|TDCJ]] inmate mugshot, 2006
+| children=2
+| spouse=
+| alias=
+| birth_date={{Birth date and age|mf=yes|1950|7|13}}
+| birth_place=[[Texas]], U.S.
+| death_date=
+| cause=
+| victims=Two confirmed; possibly over 60
+| country=[[United States|U.S.]]
+| states=[[Texas]]
+| beginyear=1977
+| endyear=1982
+| apprehended=1982
+| penalty=99 years with triple credit
+}}
+
+'''Genene Anne Jones''' (born July 13, 1950) is an American [[serial killer]], responsible for the deaths of up to 60 infants and children in her care as a [[Licensed practical nurse|licensed vocational nurse]] during the 1970s and 1980s. In 1984, Jones was convicted of murder and injury to a child.&lt;ref name=":0" /&gt; She had used injections of [[digoxin]], [[heparin]], and later [[succinylcholine]] to [[Münchausen syndrome by proxy|induce medical crises in her patients]], causing numerous deaths. The exact number of victims remains unknown; hospital officials allegedly misplaced and then destroyed records of Jones' activities, to prevent further litigation after Jones' first conviction.&lt;ref name="WaPo-NewCharges-2017"&gt;{{cite news|last1=Bever|first1=Lindsey|title='Angel of Death' nurse charged with killing another baby, suspected in up to 60 other deaths|url=https://www.washingtonpost.com/news/post-nation/wp/2017/05/26/angel-of-death-nurse-charged-with-killing-another-baby-suspected-in-up-to-60-other-slayings/|newspaper=[[The Washington Post]]|date=26 May 2017}}&lt;/ref&gt;&lt;ref&gt;{{Cite news|url=https://www.nytimes.com/2017/06/23/us/texas-nurse-children.html|title=Texas Nurse Suspected of Killing Up to 60 Children Is Charged With Murder|last=Hauser|first=Christine|date=June 23, 2017|work=The New York Times|access-date=June 23, 2017|language=en-US|issn=0362-4331}}&lt;/ref&gt;&lt;ref&gt;{{Cite news|url=https://www.nytimes.com/1984/02/06/us/five-given-injections-quit-breathing-doctor-says-in-nurse-s-trial.html|title=Five Given Injections Quit Breathing, Doctor Says In Nurse's Trial|last=King|first=Wayne|date=February 6, 1984|newspaper=The New York Times|access-date=June 23, 2017|language=en-US|issn=0362-4331}}&lt;/ref&gt;&lt;ref&gt;{{Cite news|url=https://www.nytimes.com/1983/11/22/us/former-nurse-indicted-in-texas-child-injury-case.html|title=Former Nurse Indicted in Texas Child Injury Case|date=November 22, 1983|work=The New York Times|access-date=June 23, 2017|language=en-US|issn=0362-4331}}&lt;/ref&gt;
+
+==Early life and marriages==
+Jones was adopted by a nightclub owner and his wife.&lt;ref name="Spotlight"&gt;{{cite news|title=Personality Spotlight;NEWLN:Nurse Genene: Convicted murderer|url=http://www.upi.com/Archives/1984/02/15/Personality-SpotlightNEWLNNurse-Genene-Convicted-murderer/6881445669200/|accessdate=March 27, 2016|agency=[[United Press International]]|date=February 15, 1984}}&lt;/ref&gt; Jones worked as a beautician before attending nursing school in the late 1970s.&lt;ref name="Trial"&gt;{{cite news|last1=Anderson|first1=Teresa|title=Nurse Genene faces trial in children's hospital deaths|url=http://www.upi.com/Archives/1984/01/14/Nurse-Genene-faces-trial-in-childrens-hospital-deaths/9819442904400/|accessdate=March 27, 2016|agency=[[United Press International]]|date=January 14, 1984}}&lt;/ref&gt;&lt;ref name="ESK"&gt;{{cite book|title=The Encyclopedia of Serial Killers|date=2006|publisher=Infobase Publishing|isbn=0816069875|pages=138–139|url=https://books.google.com/books?id=DwNVbOcTncwC&amp;pg=PA139&amp;lpg=PA139|accessdate=March 27, 2016}}&lt;/ref&gt;
+
+Jones was married to her high school sweetheart between 1968 and 1974, and they had one child during that time. The relationship ended in divorce. Three years later Jones and her husband reconciled and had another child together in 1977.&lt;ref name=Spotlight/&gt; Just before her indictment, Jones married a 19-year-old nursing assistant. He filed for divorce a short time later.&lt;ref name=Trial/&gt;
+
+==Career and background==
+While Jones worked as a [[Licensed practical nurse|licensed vocational nurse]] (LVN) at the [[Bexar County, Texas|Bexar County Hospital]] (now [[University Health System|University Hospital of San Antonio]]) in the [[pediatric intensive care unit]], a statistically improbable number of children died under her care.&lt;ref&gt;{{cite news|last1=Zielinski|first1=Alex|title=Bexar County Prosecutors Re-Open "Angel of Death" Case|url=https://www.sacurrent.com/the-daily/archives/2017/05/26/district-attorneys-office-reopens-angel-of-death-case|accessdate=21 October 2017|work=San Antonio Current|date=26 May 2017|language=en|quote=In 1982, Jones was a young nurse working in the pediatric intensive care unit at Bexar County County Hospital (now University Hospital).}}&lt;/ref&gt; Because the hospital feared being sued, it simply asked all of its LVNs, including Jones, to resign and staffed the pediatric ICU exclusively with [[registered nurse]]s. No further investigation was pursued by the hospital.&lt;ref&gt;{{cite news |last1=Elkind |first1=Peter |title=The Death Shift |url=https://www.texasmonthly.com/articles/the-death-shift-2/ |accessdate=24 February 2019 |publisher=Texas Monthly |date=August 1983}}&lt;/ref&gt;
+
+Jones left and took a position at a pediatrician's clinic in [[Kerrville, Texas]], some 60 miles northwest of [[San Antonio]]. It was here that she was charged with poisoning six children. The doctor in the office discovered puncture marks in a bottle of succinylcholine in the drug storage, where only she and Jones had access. Contents of the apparently full bottle were later found to be diluted. Succinylcholine is a powerful paralytic that causes temporary paralysis of all skeletal muscles, as well as those that control breathing.  A patient cannot breathe while under the influence of this drug. In small children, cardiac arrest is the ultimate result of deoxygenation due to lack of respiration.&lt;ref&gt;{{cite news|title=Explaining the Wicked Phenomenon of the Angels of Death {{!}} True Crime Magazine|url=http://www.thecrimemag.com/explaining-wicked-phenomenon-angels-death/|accessdate=21 October 2017|work=True Crime Magazine|date=6 June 2017}}&lt;/ref&gt;
+
+Jones claimed she was trying to stimulate the creation of a pediatric intensive care unit in Kerrville.&lt;ref name="Hickey"&gt;{{cite book | first=Eric | last=Hickey | title=Serial Murderers and Their Victims (5th edition) | publisher=[[Cengage Learning|Wadsworth]] | location=Belmont, CA | year=2010 | page=182 |isbn=978-0-495-60081-7 }}&lt;/ref&gt;&lt;ref name="Holmes &amp; Holmes"&gt;{{cite book | first1=Ronald | last1=Holmes | first2= Stephen | last2=Holmes | title=Contemporary Perspectives on Serial Murder | publisher=[[Sage Publications]] | location=Thousand Oaks, CA | year=1998 | page=42 |isbn=978-0-7619-1421-1 }}&lt;/ref&gt;
+
+===Prosecution===
+In 1985, Jones was sentenced to 99 years in prison for killing 15-month-old Chelsea McClellan with succinylcholine. Later that year, she was sentenced to a concurrent term of 60 years in prison for nearly killing Rolando Santos with heparin.&lt;ref&gt;{{Cite web|url=https://www.texasmonthly.com/articles/the-death-shift-2/|title=The Death Shift|last=Elkind|first=Peter|date=1983-08-01|website=Texas Monthly|language=en|access-date=2019-05-29}}&lt;/ref&gt;
+
+As of May 2016, Jones was held at the [[Lane Murray Unit]] of the [[Texas Department of Criminal Justice]].&lt;ref name=":0"/&gt; She had been scheduled for mandatory release in 2018 due to a Texas law meant to prevent [[prison overcrowding]].&lt;ref name=":0"&gt;{{cite web|title=TDCJ Offender Details|url=https://offender.tdcj.texas.gov/OffenderSearch/offenderDetail.action?sid=03193016|website=offender.tdcj.texas.gov|accessdate=5 February 2017|quote=SID Number: 03193016 TDCJ Number: 00380650 Name: JONES, GENENE}}&lt;/ref&gt;&lt;ref name="huffpost20110224"&gt;{{cite web | last =Schwartz | first =Carly | title =Genene, serial baby killer, scheduled for early release in Texas | work =[[The Huffington Post]] | publisher = | date = February 24, 2011 | url =http://www.huffingtonpost.com/2011/02/24/Genene-serial-baby-killer-early-release_n_828023.html | accessdate = April 30, 2013}}&lt;/ref&gt;  To avoid this, Jones was indicted on May 25, 2017, for the murder of 11-month-old Joshua Sawyer.&lt;ref name="Texas Monthly 7/25/17"&gt;{{cite news|last1=Elkind|first1=Peter|title=Prosecutors Race to Keep Angel-of-Death Behind Bars|url=http://www.texasmonthly.com/articles/prosecutors-race-keep-angel-death-behind-bars/|accessdate=16 July 2017|work=Texas Monthly|agency=Pro Publica|date=25 May 2017}}&lt;/ref&gt; Nico LaHood, Bexar County District Attorney, stated that additional charges could be filed in the deaths of other children. Due to the mandatory early-release law covering Jones' original convictions, she would otherwise have been released upon completion of a third of the original sentence. The new charges were filed to avoid her release.&lt;ref name="SnopesGeneneJones"&gt;{{Cite web |url=http://www.snopes.com/2017/05/26/former-texas-nurse-genene-jones/ |title=Former Texas Nurse Accused of Killing Dozens of Kids in '80s |date=2017-05-26 |website=Snopes |access-date=2017-05-26}}&lt;/ref&gt;&lt;ref name="CNN"&gt;{{cite news|last1=Ellis|first1=Ralph|last2=Kaye|first2=Randi|last3=Andone|first3=Dakin|title=Texas nurse indicted in second child's death|url=http://www.cnn.com/2017/05/26/us/texas-nurse-baby-death-indictment/index.html|accessdate=21 October 2017|work=CNN|publisher=Turner Broadcasting System|date=26 May 2017}}&lt;/ref&gt; In April 2018, a judge in San Antonio denied a request to dismiss five new murder indictments against Jones.&lt;ref&gt;{{cite news|last=Zavala|first=Elizabeth|title=Judge won't dismiss new cases against convicted child killer Genene Jones|url=https://www.mysanantonio.com/news/local/article/Judge-won-t-dismiss-new-cases-against-convicted-12857620.php|accessdate=3 July 2018|work=mysanantonio.com|date=23 April 2018}}&lt;/ref&gt; On 16 January 2020, Jones pleaded guilty to the murder of 11-month-old Joshua Sawyer on 12 December 1981 as part of a plea deal in which four other charges were dropped. She was sentenced to life in prison.&lt;ref&gt;{{Cite news |url=https://www.mysanantonio.com/news/local/article/Baby-killer-Genene-Jones-sentenced-to-life-in-the-14980865.php |title=Genene Jones, dubbed ‘killer nurse,’ gets life in prison |last=Zavala |first=Elizabeth |date=2020-01-16 |work=[[San Antonio Express-News]] |access-date=2020-01-17}}&lt;/ref&gt;&lt;ref name="CNN-20200117"&gt;{{Cite news |url=https://www.cnn.com/2020/01/17/us/texas-nurse-sentenced-trnd/index.html |title=A former nurse suspected of killing dozens of children has been sentenced to life in prison |last=Andone |first=Dakin |date=2020-01-17 |access-date=2020-01-20 |url-status=live |website=CNN}}&lt;/ref&gt; She won't be eligible for parole until she's roughly 87 years old.  
+
+==In popular culture==
+She was portrayed by [[Susan Ruttan]] in the television movie ''[[Deadly Medicine]]'' (1991)&lt;ref&gt;{{cite news|last1=Tucker|first1=Ken|title=Deadly Medicine|url=http://ew.com/article/1991/11/08/deadly-medicine/|accessdate=21 October 2017|work=EW.com|agency=Entertainment Weekly|publisher=Time Inc.|date=8 November 1991}}&lt;/ref&gt; and by Alicia Bartya in the straight-to-video movie ''Mass Murder'' (2002).&lt;ref&gt;{{cite web|last1=Meyers|first1=Jeff|title=Mass Murder|url=https://www.imdb.com/title/tt0400640/|website=imdb.com|publisher=StageDirect|accessdate=21 October 2017|date=2002}}&lt;/ref&gt; She was also featured in a [[Discovery Channel]] [[documentary film|documentary]], ''Lethal Injection;'' season five episode ten of ''[[Forensic Files]]'' titled "Nursery Crimes";&lt;ref&gt;{{cite web|title=Forensic Files - Season 5, Ep 10: Nursery Crimes|url=https://www.youtube.com/watch?v=KYylTPhVNKA|website=youtube.com|publisher=FilmRise|accessdate=21 October 2017|date=8 July 2016}}&lt;/ref&gt; season one episode three of the British docuseries ''Nurses Who Kill'' (2016);&lt;ref&gt;{{cite web|title=Nurses Who Kill|url=https://www.netflix.com/title/80185622|website=www.netflix.com|publisher=DCD RIghts|accessdate=21 October 2017|date=2016}}&lt;/ref&gt; as well as the "Dark Secrets" season two, episode four of Investigation Discovery's ''Deadly Women,''&lt;ref name="InvDisc"&gt;{{Cite AV media |url=https://www.investigationdiscovery.com/tv-shows/deadly-women/full-episodes/dark-secrets |title=Dark Secrets: Deadly Women |date=30 October 2008 |type=video |language=en-us |access-date=21 October 2017 |website=www.investigationdiscovery.com}}&lt;/ref&gt; and was said to have inspired [[Annie Wilkes]] from [[Stephen King]]'s ''[[Misery (novel)|Misery]]''.
+
+==See also==
+* [[Beverley Allitt]]
+* [[Miyuki Ishikawa]]
+
+'''General:'''
+* [[List of serial killers in the United States]]
+
+==References==
+&lt;references /&gt;
+
+==External links==
+* [http://www.stagedirect.com/massmurder/killers_Genene.shtml Mass Murder]
+* [http://www.propublica.org/documents/item/3879848-Genene-Jones-Letter-to-the-Texas-Board-of-Nursing.html Genene Jones Letter to the Texas Board of Nursing] [http://www.propublica.org/article/former-texas-nurse-convicted-of-baby-killing-told-authorities-i-was-heinous (March 2011)]
+
+{{Authority control}}
+
+{{DEFAULTSORT:Jones, Genene}}
+[[Category:1950 births]]
+[[Category:Living people]]
+[[Category:American female murderers]]
+[[Category:American female criminals]]
+[[Category:American female serial killers]]
+[[Category:American serial killers]]
+[[Category:American murderers of children]]
+[[Category:American nurses]]
+[[Category:American women nurses]]
+[[Category:American people convicted of murder]]
+[[Category:Nurses convicted of killing patients]]
+[[Category:People convicted of murder by Texas]]</text>
+      <sha1>fjtwktm3tzeehofp3cxkilqf707eu82</sha1>
+    </revision>
+  </page>
+</mediawiki>

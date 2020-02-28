@@ -1,0 +1,220 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.21</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>An Jung-geun</title>
+    <ns>0</ns>
+    <id>262408</id>
+    <revision>
+      <id>939570298</id>
+      <parentid>939570056</parentid>
+      <timestamp>2020-02-07T08:27:09Z</timestamp>
+      <contributor>
+        <username>SUM1</username>
+        <id>12712128</id>
+      </contributor>
+      <comment>Added missing in lead</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="27431" xml:space="preserve">{{short description|Korean independence activist and nationalist}}
+{{Korean name|[[Ahn (Korean surname)|An]]}}
+{{Infobox person
+| name               = An Jung-Geun&lt;br /&gt;안중근
+| image              = An Jung-geun.JPG
+| birth_date         = {{birth date|1879|09|2|df=y}}
+| birth_place        = [[Haeju|Haeju-bu]], [[Hwanghaedo]], [[Joseon|Korea]]&lt;br /&gt;{{nowrap|&lt;small&gt;(now Haeju, [[Hwanghae]], [[North Korea]])&lt;/small&gt;}}
+| death_date         = {{death date and age|1910|03|26|1879|09|02|df=y}}
+| death_place        = [[Lüshunkou District|Ryojun]], [[Kwantung Leased Territory]], [[Empire of Japan|Japan]]&lt;br /&gt;&lt;small&gt;(now Lüshunkou, [[China]])&lt;/small&gt;
+| known_for          = Assassinating [[Itō Hirobumi]] in 1909
+| awards             = [[Order of Merit for National Foundation]] (Posthumously)
+| module             = {{Infobox Korean name|child=yes|color=transparent
+ |hangul      = 안중근
+ |hanja       = 安重根
+ |rr          = An Jung-geun
+ |mr          = An Chunggŭn
+ |signature   = Screenshot_2017-01-04-15-00-07-1.png
+}}
+}}
+
+'''An Jung-geun''', sometimes spelled '''Ahn Jung-geun''' ({{IPA-ko|andʑuŋɡɯn}}; 2 September 1879 – 26 March 1910; baptismal name: ''An Thomas''), was a [[Korean independence movement|Korean-independence activist]],&lt;ref&gt;An was the chief of staff of the [[Righteous army|Korean Righteous army]]&lt;/ref&gt;&lt;ref&gt;{{cite web|url=http://aboutjapan.japansociety.org/content.cfm/hero |title=What Defines a Hero? |publisher=Japan Society |accessdate=2008-01-29 |url-status=dead |archiveurl=https://web.archive.org/web/20071004183049/http://aboutjapan.japansociety.org/content.cfm/hero |archivedate=2007-10-04 }}&lt;/ref&gt;&lt;ref&gt;{{cite web |url=http://www.ndl.go.jp/portrait/e/datas/12.html |title=Ito, Hirobumi |accessdate=2008-01-29 |publisher=Portrait of Modern japanese Historical Figures | archiveurl= https://web.archive.org/web/20080129085624/http://www.ndl.go.jp/portrait/e/datas/12.html| archivedate= 29 January 2008 | url-status= live}}&lt;/ref&gt; [[Korean nationalism|nationalist]],&lt;ref&gt;{{cite web|title=Ito Hirobumi |url=http://www.britannica.com/ebc/article-9368315 |publisher=Encyclopædia Britannica |accessdate=2008-01-29}}&lt;/ref&gt;&lt;ref name="dudden"&gt;{{cite book|title=Japan's Colonization of Korea: Discourse and Power|first=Alexis|last=Dudden|publisher=University of Hawaii Press|year=2005|isbn= 0-8248-2829-1}}&lt;/ref&gt; and [[pan-Asianist]].&lt;ref&gt;[http://www.ndl.go.jp/site_nippon/kensei/shiryou/limage/Gazou_40_3.html "Peace of East Asia" Thesis written by An Jung-geun in 1910]&lt;/ref&gt;&lt;ref&gt;{{cite book|title=Ethnic Nationalism in Korea|first=Gi-Wook|last=Shin|publisher=Stanford University Press|year=2006|isbn= 0-8047-5408-X}}&lt;/ref&gt;
+
+On 26 October 1909, he assassinated [[Prince]] [[Itō Hirobumi]], a four-time [[Prime Minister of Japan]], former [[Resident-General of Korea]], and then [[Privy Council of Japan|President of the Privy Council of Japan]], following the signing of the [[Eulsa Treaty]], with Korea on the verge of annexation by [[Japan]].&lt;ref&gt;[http://www.ndl.go.jp/portrait/e/datas/12.html Ito, Hirobumi | Portraits of Modern Japanese Historical Figures&lt;!-- bot-generated title --&gt;] at www.ndl.go.jp&lt;/ref&gt; He was imprisoned and later executed by Japanese authorities on 26 March 1910. An was posthumously awarded the [[Order of Merit for National Foundation]] in 1962 by the South Korean government, the most prestigious civil decoration in the Republic of Korea, for his efforts for Korean independence.&lt;ref name="Doosan Encyclopedia"&gt;[http://100.naver.com/100.nhn?docid=107070] Doosan Encyclopedia&lt;/ref&gt;
+
+==Biography==
+
+===Early accounts===
+[[File:安重根父母.jpg|thumb|220px|left|An's parents]]
+An was born on 2 September 1879, in [[Haeju]], [[Hwanghae]]-do, the first son of Ahn Tae-Hun (안태훈; 安泰勳) and Jo Maria (조성녀; 趙姓女), of the family of the Sunheung Ahn (순흥안씨; 順興安氏) lineage. His childhood name was {{Not typo|Ahn Eung-chil}} (안응칠; 安應七; {{IPA-ko|anɯŋtɕʰil|}}). As a boy, he learned Chinese literature and Western sciences, but was more interested in martial arts and marksmanship. [[Kim Gu]] (김구; 金九), future leader of the [[Provisional Government of the Republic of Korea|Korean independence movement]] who had taken refuge in Ahn Tae-Hun's house at the time, wrote that young An Jung-Geun was an excellent marksman, liked to read books, and had strong charisma.&lt;ref&gt;Kim, G. (1928/1997, p.48)&lt;/ref&gt;
+
+[[File:洪神父.jpg|thumb|110px| French priest Wilhelm]]
+At the age of 16, An entered the [[Catholic]] Church with his father, where he received his baptismal name "Thomas" (토마스), and learned French. While fleeing from the Japanese, An took refuge with a French priest of the Catholic Church in Korea named Wilhelm (Korean name, Hong Seok-ku; 홍석구; 洪錫九) who baptized and hid him in his church for several months. The priest encouraged An to read the Bible and had a series of discussions with him. He maintained his belief in Catholicism until his death, going to the point of even asking his son to become a priest in his last letter to his wife.&lt;ref name=keene&gt;{{cite book|title=Emperor of Japan: Meiji and His World, 1852–1912|first=Donald|last=Keene|authorlink=Donald Keene|publisher=[[Columbia University Press]]|year=2002|pages=[https://archive.org/details/emperorofjapanme00keen/page/662 662–667]|isbn=0-231-12340-X|url-access=registration|url=https://archive.org/details/emperorofjapanme00keen/page/662}}&lt;/ref&gt;
+
+At the age of 25, he started a coal business, but devoted himself to education of Korean people after the [[Eulsa Treaty]] by establishing private schools in northwestern regions of Korea. He also participated in the [[National Debt Repayment Movement]]. In 1907 he exiled himself to [[Vladivostok]] to join in with the armed resistance against the Japanese colonial rulers. He was appointed a [[lieutenant general]] of an armed Korean resistance group and led several attacks against Japanese forces before his eventual defeat.
+
+===Assassination of Itō Hirobumi===
+[[File:安重根.jpg|thumb|upright|left|''An Jung-geun'' in 1906]]
+[[File:Ito before death.jpg|thumb|200px|Ito (second on the left) before being gunned down by ''An Jung-geun'']]
+In October 1909, An passed the Imperial Japanese guards at the [[Harbin Railway Station]]. Itō Hirobumi had come back from negotiating with the Russian representative on the train. An shot Itō three times with an [[FN M1900]] pistol on the railway platform. He also shot Kawagami Toshihiko (川上俊彦), the Japanese [[Consul General]],&lt;ref&gt;{{cite book |last1=Minichiello |first1=Sharon |title=Japan's Competing Modernities: Issues in Culture and Democracy, 1900-1930 |date=1998 |publisher=University of Hawaii Press |location=Honolulu |isbn=0824820800 |pages=Pg 60 |url=https://books.google.com/books?id=-I_pId0AuhIC&amp;pg=PA60&amp;lpg=PA60&amp;dq=Kawakami+Toshihiko+japan+Consul+General&amp;source=bl&amp;ots=V_xiOItoHz&amp;sig=8jNqr9j4u6AytW6UyZL7OP-7SFg&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwis4pbkreTeAhXEHTQIHVHuD6MQ6AEwAHoECAoQAQ#v=onepage&amp;q=Kawakami%20Toshihiko%20japan%20Consul%20General&amp;f=false |accessdate=21 November 2018}}&lt;/ref&gt; Morita Jirō (森泰二郞), a Secretary of [[Imperial Household Agency]], and Tanaka Seitarō (田中淸太郞), an executive of [[South Manchuria Railway]], who were seriously injured. After the shooting, An yelled out for Korean independence in [[Russian language|Russian]], stating "Корея! Ура!" (Korea! Hooray!), and waving the Korean flag.
+
+Afterwards, An was arrested by Russian guards who held him for two days before turning him over to Japanese colonial authorities. When he heard the news that Itō had died, he made the [[sign of the cross]] in gratitude. An was quoted as saying, "I have ventured to commit a serious crime, offering my life for my country. This is the behavior of a noble-minded patriot."&lt;ref name=keene /&gt; Despite the orders from the Bishop of Korea not to administer the Sacraments to An, Fr. Wilhelm disobeyed and went to An to give the Last Sacraments. An insisted that the captors call him by his baptismal name, Thomas.
+
+In the court, An insisted that he be treated as a prisoner of war, as a lieutenant general of the Korean resistance army, instead of a criminal, and listed 15 crimes Itō had committed which convinced him to kill Itō.&lt;ref&gt;Kang.(2007, p.131)&lt;/ref&gt; An mistakenly believed Itō had ordered the assassination of [[Empress Myeongseong]], an order which is attributed to [[Miura Gorō]], although Miura Gorō did send a report to Itō Hirobumi after the assassination.&lt;ref name="HarbinAnStatueControversy" /&gt;&lt;ref&gt;{{cite web |author1=Kim Jin |title=[Viewpoint] Japan’s shameful failure to apologize |url=http://koreajoongangdaily.joins.com/news/article/article.aspx?aid=2910885 |website=Korea JoongAng Daily |publisher=Korea JoongAng Daily |accessdate=21 November 2018 |date=6 October 2009}}&lt;/ref&gt;
+{{quote|"'''15 reasons why [[Itō Hirobumi]] should be killed.'''&lt;br /&gt;
+1. Assassinating the Korean [[Empress Myeongseong]]&lt;br /&gt;
+2. Dethroning the [[Emperor Gojong]]&lt;br /&gt;
+3. Forcing 14 unequal treaties on Korea.&lt;ref&gt;For example, see the article [[Eulsa Treaty]]&lt;/ref&gt;&lt;br /&gt;
+4. Massacring innocent Koreans&lt;br /&gt;
+5. Usurping the authority of the Korean government by force&lt;br /&gt;
+6. Plundering Korean railroads, mines, forests, and rivers&lt;br /&gt;
+7. Forcing the use of Japanese banknotes&lt;br /&gt;
+8. Disbanding the Korean armed forces&lt;br /&gt;
+9. Obstructing the education of Koreans&lt;br /&gt;
+10. Banning Koreans from studying abroad&lt;br /&gt;
+11. Confiscating and burning Korean textbooks&lt;br /&gt;
+12. Spreading a rumor around the world that Koreans wanted Japanese protection&lt;br /&gt;
+13. Deceiving the Japanese Emperor by saying that the relationship between Korea and Japan was peaceful when in truth it was full of hostility and conflicts&lt;br /&gt;
+14. Breaking the peace of Asia&lt;br /&gt;
+15. Assassinating the [[Emperor Kōmei]].&lt;ref&gt;Kōmei, who was strongly opposed to radical political changes, died at the age of 35. The official cause of death was smallpox. But there has been a theory widely believed at the time that the emperor was actually poisoned by the anti-[[Bakufu]] clique. See for example Chung (1910/2004, p.61), Jansen (1961, p.282), Nam (1999, p.111), and Ravina (2004, p.135).&lt;/ref&gt;&lt;ref name="HarbinAnStatueControversy"&gt;{{cite journal |last1=Franklin |first1=Rausch |title=The Harbin An Jung-Geun Statue: A Korea/China-Japan Historical Memory Controversy |journal=The Asia-Pacific Journal |date=1 December 2013 |volume=11 |issue=48 |url=https://apjjf.org/2013/11/48/Franklin-Rausch/4040/article.html}}&lt;/ref&gt;
+&lt;br /&gt;&lt;br /&gt;
+I, as a lieutenant general of the Korean resistance army, killed the criminal Itō Hirobumi because he disturbed the peace of the Orient and estranged the relationship between Korea and Japan. I hoped that if Korea and Japan be friendlier and are ruled peacefully, they would be a model all throughout the five continents. I did not kill Itō misunderstanding his intentions."}}
+
+===Imprisonment and death===
+An's Japanese captors showed sympathy to him. He recorded in his autobiography that the public prosecutor, Mizobuchi Takao, exclaimed "From what you have told me, it is clear that you are a righteous man of East Asia. I can't believe a sentence of death will be imposed on a righteous man. There's nothing to worry about." He was also given [[Japanese New Year|New Year's]] delicacies and his [[calligraphy]] was highly admired and requested.&lt;ref name=keene /&gt; After six trials, An was sentenced to [[Capital punishment|death]] by the Japanese colonial court in Ryojun ([[Lüshunkou|Port Arthur]]). An was angered at the sentence, though he expected it.&lt;ref name=keene /&gt; He had hoped to be viewed as a [[prisoner of war]] instead of an [[assassination|assassin]].&lt;ref name=keene /&gt; On the same day of sentencing at two o'clock in the afternoon, his two brothers Jeong-Geun and Gong-Geun met with him to deliver their mother's message, "Your death is for the sake of your country, and don't ask for your life in a cowardly manner. Your brave death for justice is a final filial regards to your mother."&lt;ref&gt;{{citation |title=An Jung-Geun, The Great Patriot Martyr of Korea |publisher=Patriot An Memorial Hall |date=November 1995 |page=5}}&lt;/ref&gt;
+
+Judge Hirashi, who presided over An's trial, had promised An that a stay of execution for at least a few months would be granted, but [[Tokyo]] ordered prompt action. Before his execution, An made two final requests; that the wardens help him finish his essay, "On Peace in East Asia", and for a set of white silk Korean clothes to die in. The warden granted the second request and resigned shortly afterwards. An requested to be executed as a prisoner of war, by firing squad. But instead it was ordered that he should be hanged as a common criminal. The execution took place in [[Ryojun]], on 26 March 1910. His grave in Lu Shun has not been found.&lt;ref&gt;[http://naver007.exblog.jp/i8 梅泉野録　漢文 ( 3 )]&lt;/ref&gt;
+
+==Views==
+Some historians hold that Itō's death resulted in the acceleration of the final stage of the colonization process,&lt;ref name=keene /&gt; but the claim has been disputed by some.&lt;ref name="2010 Nocut News article"&gt;[http://www.cbs.co.kr/nocut/Show.asp?IDX=1427290] 2010 Nocut News article&lt;/ref&gt;
+
+According to [[Donald Keene]], author of ''Emperor of Japan: Meiji and His World, 1852–1912'', An Jung-Geun was an admirer of [[Emperor Meiji]] of Imperial Japan.&lt;ref name=keene /&gt; One of the 15 charges An leveled against Itō was that he had deceived the [[Emperor of Japan]], whom An felt desired peace in [[East Asia]] and Korean independence. An requested that Meiji be informed of his reasons for his assassination of Itō in the hopes that if Meiji understood his reasons, the emperor would realize how mistaken Itō's policies were and would rejoice. An also felt sure that most Japanese felt similar hatred for Itō, an opinion he formed from talking with Japanese prisoners in Korea.&lt;ref name=keene /&gt; While An was staying in the prison and on the trial, many Japanese prison guards, lawyers and even prosecutors were inspired by An.&lt;ref name="bunkyo.ac.jp"&gt;"Research notes of Ippei Wakabayashi" {{cite web|url=http://www.bunkyo.ac.jp/faculty/lib/slib/kiyo/Int/it1901/it190110.pdf |title=Archived copy |accessdate=2011-03-31 |url-status=dead |archiveurl=https://web.archive.org/web/20110613142445/http://www.bunkyo.ac.jp/faculty/lib/slib/kiyo/Int/it1901/it190110.pdf |archivedate=2011-06-13 }}&lt;/ref&gt;
+
+==Legacy==
+[[File:Ahn's Taegukgi.png|thumb|Taegukgi by Ahn Jung-geun longing for the Independence of Korea]]
+[[File:Ajg calligraphy ilil.jpg|thumb|70 px|"一日不讀書口中生荊棘" means "Unless reading everyday, thorns grow in the mouth."]]
+
+The assassination of Itō by An was praised by Koreans and many Chinese as well, who were struggling against Japanese invasion at the time. Well-known Chinese political leaders such as [[Yuan Shikai]], [[Sun Yat-sen]], and [[Liang Qichao]] wrote poems acclaiming ''An''.&lt;ref name="2009 Joongang Ilbo article"&gt;[http://article.joins.com/article/article.asp?Total_ID=3791179] 2009 Joongang Ilbo Article&lt;/ref&gt;
+
+In the 2010 An Jung-Geun Symposium in Korea, Wada Haruki (和田春樹), an activist who once worked at [[Tokyo University]], evaluated An by quoting Itō Yukio (伊藤之雄), a fellow history scholar in [[Kyoto University]].&lt;ref name="2010 Kyunghyang News Article"&gt;[http://news.khan.co.kr/kh_news/khan_art_view.html?artid=201005031814015&amp;code=990000] 2010 Kyunghyang News Article&lt;/ref&gt; In his text published in 2009, Itō Yukio claims that the reign by Itō Hirobumi resulted in strong resistance from Koreans as it was considered the first step for annexation of Korea due to the cultural differences, and that An is not to be blamed even if he assassinated Itō without understanding Itō's ideology (2009, Itō).
+
+On 26 March 2010, a nationwide centenary tribute to An was held in South Korea, including a ceremony led by the Prime Minister [[Chung Un-Chan]] and tribute concerts.
+
+=== Ancestry ===
+An's family produced many other Korean independence activists. An's cousin ''An Myeong-Geun'' (안명근; 安明根) attempted to assassinate [[Terauchi Masatake]], the first Japanese [[Governor-General]] of Korea (조선총독; 朝鮮總督) who executed the [[Japan-Korea Annexation Treaty]] in 1910. He failed, however, and was imprisoned for 15 years; he died in 1926.  An's brothers Ahn Jeong-Geun (안정근; 安定根) and Ahn Gong-Geun (안공근; 安恭根), as well as An's cousin Ahn Gyeong-Geun (안경근; 安敬根) and nephew Ahn Woo-Saeng (안우생; 安偶生), joined the [[Provisional Government of the Republic of Korea]] in [[Shanghai]], China, which led by [[Kim Gu]], and fought against Japan. Ahn Chun-Saeng (안춘생; 安春生), another nephew of An's, joined the [[National Revolutionary Army]] of China, participated in battles against Japanese forces at Shanghai, and joined the [[Korean Liberation Army]] in 1940. Later, he became a lieutenant general of the [[Republic of Korea Army]] and a member of the National Assembly of South Korea.
+
+=== Pan-Asianism ===
+An strongly believed in the union of the three great countries in East Asia, [[China]], [[Korea]], and [[Japan]] in order to counter and fight off the "[[Western imperialism in Asia|White Peril]]", namely, the European countries engaged in colonialism, and restore peace to East Asia. He followed the progress of Japan during the [[Russo-Japanese War]] and claimed that he and his compatriots were delighted at hearing of the defeat of one of the agents of the White Peril, but were disappointed that the war ended before [[Russia]] was totally subjugated.
+
+An felt that with the death of Itō, Japan and Korea could become friends because of the many traditions that they shared. He hoped that this friendship, along with China, would become a model for the world to follow. His thoughts on Pan-Asianism were stated in his essay, "On Peace in East Asia" (東洋平和論; 동양평화론) that he worked on and left unfinished before his execution.&lt;ref name=keene /&gt;&lt;ref&gt;[http://blog.chosun.com/blog.log.view.screen?blogId=73313&amp;logId=4568186 안중근 의사의 &lt;동양평화론&gt;] {{webarchive |url=https://web.archive.org/web/20140418234712/http://blog.chosun.com/blog.log.view.screen?blogId=73313&amp;logId=4568186 |date=April 18, 2014 }}&lt;/ref&gt; In this work, An recommends the organization of combined armed forces and the issue of joint banknotes among Korea, Japan, and China. Sasagawa Norikatsu (笹川紀勝), a Professor of Law at [[Meiji University]], highly praises An's idea as an equivalent of the [[European Union]] and a concept that preceded the concept of [[United Nations]] by 10 years.&lt;ref&gt;[http://www.segye.com/Articles/NEWS/SOCIETY/Article.asp?aid=20100325004464&amp;subctg1=&amp;subctg2=] 2010 Segye Ilbo article&lt;/ref&gt;
+
+=== Calligraphic works ===
+An is highly renowned for [[Korean calligraphy|calligraphy]] works. While he was in prison, many prison guards such as Chiba Toshichi (千葉十七) who respected him, made requests to An for calligraphy works.&lt;ref name="bunkyo.ac.jp" /&gt;
+He left many calligraphy works which were written in the jail of [[Lushun]] although he hadn't studied calligraphy formally. He would leave on his calligraphy works a signature of "大韓國人" (Great Korean) and a handprint of his left hand that was missing the last joint of the ring finger, which he had cut off with his comrades in 1909 as a pledge to kill Itō. Some of the works were designated as Treasure No. 569 of the Republic of Korea in 1972.&lt;ref&gt;[http://jikimi.cha.go.kr/english/search_plaza_new/ECulresult_Db_View.jsp?VdkVgwKey=12,05690000,11 An Jung Geun calligraphy, Treasure No. 569]&lt;/ref&gt; One of his famous works is "一日不讀書口中生荊棘" (일일부독서 구중생형극; Unless one reads every day, thorns grow in the mouth), a quote from the ''[[Analects]]'' of [[Confucius]].
+
+===Memorial Halls===
+Memorial halls for An were erected in [[Seoul]] in 1970 by the South Korean government and in Harbin by the Chinese government in 2006.&lt;ref name="2009 Asia Business Article"&gt;[http://www.ajnews.co.kr/uhtml/read.jsp?idxno=200910221329402380238] 2009 Asian Business Article&lt;/ref&gt; South Korean President [[Park Geun-Hye]] raised the idea of erecting a monument for An while meeting with Chinese President [[Xi Jinping]] during a visit to China in June 2013. Thus another memorial hall honoring An Jung-Geun was opened on Sunday, 19 January 2014 in Harbin. The hall, a 200-square meter room, features photos and memorabilia.&lt;ref&gt;[http://www.globalpost.com/dispatch/news/kyodo-news-international/140119/memorial-hall-korean-nationalist-ahn-jung-geun-opens-c]&lt;/ref&gt; Annual activities in memorial of An are held in Lüshun, where he was imprisoned and executed.&lt;ref&gt;{{cite news |title=韩官方时隔两年到旅顺祭奠安重根 |url=http://chinese.yonhapnews.co.kr/allheadlines/2018/03/26/0200000000ACK20180326004400881.HTML |accessdate=12 June 2018 |agency=[[Yonhap News Agency]] |date=26 March 2018 |language=Chinese}}&lt;/ref&gt;
+
+According to local sources in China dated on 22 March 2017, the Ahn Jung-geun Memorial Hall located at Harbin Railway Station was recently relocated to a Korean art museum in Harbin City amid China's retaliation over South Korea's deployment of the U.S. [[Terminal High Altitude Area Defense|THAAD]] antimissile system.&lt;ref&gt;{{cite web |title=China Relocates Ahn Jung-geun Memorial Hall |date=March 22, 2017 |publisher=KBS World Radio |url=http://world.kbs.co.kr/english/news/news_In_detail.htm?No=126144}}&lt;/ref&gt; The Memorial Hall has since been reopened in the Harbin Railway Station after renovation work.&lt;ref&gt;{{cite web |title=China to reopen Ahn Jung-geun memorial hall at Harbin Station: source |date=March 25, 2019 |publisher=Korea Herald |url=http://www.koreaherald.com/view.php?ud=20190325000507}}&lt;/ref&gt;
+
+== Controversies ==
+Historically, the Japanese government has generally deemed An Jung-geun as a terrorist and criminal, while South Korea has upheld An as a national hero. In January 2014, Yoshihide Suga, a Japanese government spokesman, described the Harbin memorial hall in China as "not conducive to building peace and stability" between East Asian countries.&lt;ref&gt;{{Cite news|url=https://www.bbc.com/news/world-asia-25808437|title=Japan protest over Korean assassin Ahn Jung-geun memorial in China|date=2014-01-20|work=BBC News|access-date=2017-03-09|language=en-GB}}&lt;/ref&gt; China, on the other hand, "said that Ahn was a 'famous anti-Japanese high-minded person{{'"}}, while "South Korea's foreign ministry said An was a 'highly respected figure'."{{cn|date=October 2019}}
+
+In February 2017, South Korean police were criticized for using a picture of An in posters put up in the city of Incheon.&lt;ref&gt;{{Cite news|url=https://www.bbc.com/news/blogs-news-from-elsewhere-38957659|title=South Korean police in terrorism poster gaffe|date=2017-02-13|work=BBC News|access-date=2017-03-09|language=en-GB}}&lt;/ref&gt; The poster warned of terrorism, and many South Korean citizens online criticized the police, asking "if it was meant to imply if An was a terrorist". A police officer in the ''Korea Times'' apologized and clarified that there was no intention to associate An with terrorism, and all posters were taken down.{{cn|date=October 2019}}
+
+==In popular culture==
+The North Korean film ''[[An Jung Gun Shoots Itō Hirobumi]]'' is a dramatized story of the event.&lt;ref&gt;[http://www.north-korea-books.com/servlet/the-571/AN-JUNG-GUN-SHOOTS/Detail ''DVD'' in North Korea Books]&lt;/ref&gt;
+The South Korean film ''Thomas An Jung-geun (토마스 안중근)'' is another dramatized story of the event.&lt;ref&gt;{{cite web|title=Thomas Ahn Jung-geun|url=http://www.hancinema.net/korean_movie_Thomas_Ahn_Jung-geun.php|accessdate=10 December 2013}}&lt;/ref&gt; Released on September 10, 2004, it is directed by Seo Se-won. An Jung-Geun is played by actor [[Yu Oh-seong]] and Itō Hirobumi is played by [[Yoon Joo-sang]].
+
+A Chinese-South Korean co-production, "The Age of Heroes," is being planned as a Korean Drama for 2019. “The Age of Heroes” is planned to be 24 episodes long and entirely pre-produced with an impressive budget of 30 billion won.  Filming will begin by the end of 2018 with locations in South Korea, China, and North Korea.&lt;ref&gt;{{Cite news|url=https://dramacurrent.com/2018/08/21/chinese-korean-joint-drama-announced-the-age-of-heroes/|title=Chinese-Korean Joint Drama Announced: "The Age of Heroes" - DramaCurrent|date=2018-08-21|work=DramaCurrent|access-date=2018-08-30|language=en-US}}&lt;/ref&gt;
+
+==See also==
+{{Portal|Biography}}
+* [[Korean independence movement]]
+* [[List of Korea-related topics]]
+* [[Lee Bong-chang]]
+* [[Yun Bong-gil]]
+
+==References==
+* Chung, K. (1910/2004). 대한계년사 9 [History of Korean Empire Vol. 9]. Seoul, South Korea: Somyung. {{ISBN|89-5626-094-X}}
+* Itō, Y. (2009). 伊藤博文 近代日本を創った男 [Itō Hirobumi – A man who modernized Japan]. Tokyo, Japan: Kodansha. {{ISBN|4-06-215909-0}}.
+* Jansen, M. B. (1961). Sakamoto Ryoma and the Meiji Restoration. Stanford, CA: Stanford University Press. {{ISBN|0-8047-0785-5}}
+* Kang, J. (2007). 한국근대사산책 5 [Modern history of Korea Vol.5]. Seoul, South Korea: Inmulgwa Sasang. {{ISBN|978-89-5906-075-7}}
+* Kim, G. (1928/1997). 백범일지 [Baekbeomilji]. Seoul, Korea: Hakminsa. {{ISBN|89-7193-086-1}}
+* Nam, K. (1999). 종횡무진 동양사 [History of Eastern Asia] Seoul, South Korea: Greenbee. {{ISBN|89-7682-051-7}}
+* Ravina, M. (2004). The last samurai: The life and battles of Saigo Takamori. Hoboken, NJ: John Wiley &amp; Sons. {{ISBN|0-471-08970-2}}
+
+==Notes==
+{{Reflist}}
+
+==External links==
+{{Commons category|An Jung-geun}}
+* [https://web.archive.org/web/19981205092211/http://www.patriot.or.kr/ An Jung Geun Memorial Hall]
+* {{IMDb title| id=0294252 | title=2009 Lost Memories}}
+* {{Cite web|title=Catholic Church in Korea and the Nationalist Movement |work=Catholic Bishops' Conference of Korea |url=http://www.cbck.or.kr/eng/ccik/history_07.htm |accessdate=December 15, 2005 |url-status=dead |archiveurl=https://web.archive.org/web/20050322205404/http://www.cbck.or.kr/eng/ccik/history_07.htm |archivedate=March 22, 2005 }}
+* [https://web.archive.org/web/20121004134346/http://www.utoronto.ca/csk/Intro_for_A_Treatise_on_Peace_in_the_East.pdf Scholarly introduction to An Jung-geun's ''Treatise on Peace in the East'']
+* [https://web.archive.org/web/20101127214425/http://www.utoronto.ca/csk/A_Treatise_on_Peace_in_the_East.pdf An Jung-geun's ''Treatise on Peace in the East'' (1910)]
+* [http://offbroadway.broadwayworld.com/article/HERO-THE-MUSICAL-Opens-At-Lincoln-Center-823-20110729 ''Hero: the Musical''], Lincoln Center, New York, 2011
+
+{{Authority control}}
+
+{{DEFAULTSORT:An, Jung-geun}}
+[[Category:1879 births]]
+[[Category:1910 deaths]]
+[[Category:People from Haeju]]
+[[Category:Korean Roman Catholics]]
+[[Category:Korean assassins]]
+[[Category:Korean expatriates in Russia]]
+[[Category:Korean independence activists]]
+[[Category:Korean nationalist assassins]]
+[[Category:19th-century Korean people]]
+[[Category:Recipients of the Order of Merit for National Foundation]]
+[[Category:20th-century executions by Japan]]
+[[Category:People executed by Japan by hanging]]
+[[Category:Executed Korean people]]
+[[Category:Executed assassins]]
+[[Category:Pan-Asianists]]
+[[Category:Converts to Roman Catholicism]]</text>
+      <sha1>mqamsbny2v19simsxit9r0cy7qvoo4i</sha1>
+    </revision>
+  </page>
+</mediawiki>
