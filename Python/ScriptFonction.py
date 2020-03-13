@@ -26,10 +26,3 @@ def recuperationText(path):
     
     #Renvoie le texte
     return megaText
-
-"""Traitement de l'information""" 
-
-pathFile = "essai.xml"
-path = "listSerialKiller.xml"
-texte = recuperationText(path)
-print(texte)
