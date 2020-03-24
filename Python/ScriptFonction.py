@@ -4,7 +4,7 @@ from lxml import html
 from nltk import *
 import xml.etree.ElementTree  as ET 
 
-"""Fonction"""
+"""Fonction XML"""
 
 def recuperationText(path):
     # Entree : string qui est le chemin vers nos données XML
@@ -29,6 +29,7 @@ def recuperationText(path):
     #Renvoie le texte
     return megaText
 
+"""Fonction pre-traitement"""
 def tokenTag(doc):
     # Entree : un texte
     # Sortie : une liste de token avec leur tag
@@ -36,3 +37,23 @@ def tokenTag(doc):
     doc = nltk.word_tokenize(doc)
     doc = nltk.pos_tag(doc)
     return doc
+
+def verbeList(textTokenizer):
+    # Entree : prends un texte tokenizer
+    # Sortie : renvoie une liste de verbe 
+    # Objectif : recuperer tout les verbes 
+    listeVerbe = []
+    for elt in textTokenizer:
+        if elt[1] == "VB" :
+            listeVerbe.append(elt[0])
+        if elt[1] == "VBD" :
+            listeVerbe.append(elt[0])
+        if elt[1] == "VBG" :
+            listeVerbe.append(elt[0])
+        if elt[1] == "VBN" :
+            listeVerbe.append(elt[0])
+        if elt[1] == "VBP" :
+            listeVerbe.append(elt[0])
+        if elt[1] == "VBZ" :
+            listeVerbe.append(elt[0])
+    return listeVerbe
