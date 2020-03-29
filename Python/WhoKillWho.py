@@ -253,8 +253,8 @@ nom_tueur.strip()
 txt = nom_tueur.replace(' ','_')
 text1 = txt + '.xml'
 """
-text1 = "Chandrakant_Jha.xml"
-
+#text1 = "Chandrakant_Jha.xml"
+text1 = "enSK.xml"
 
 
 #Traitements...
