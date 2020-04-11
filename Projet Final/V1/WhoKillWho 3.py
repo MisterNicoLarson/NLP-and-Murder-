@@ -528,13 +528,12 @@ print("Liste de votre recherche :")
 affichage(result)
 
 
-"""
+
 #Traitements...
-text2 = purge(recuperationText(text1))
+text2 = purge(recuperationText("enSK.xml"))
 text3 = tokenTag(text2)
 text4,textA = tri(text3)
 textB = temporel(textA)
 text5 = association(text4)
 textF = deduction(textB,text5)
 print(textF)
-"""
