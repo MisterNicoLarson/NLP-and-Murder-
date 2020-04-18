@@ -1,4 +1,4 @@
-de d # -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 from PyQt5 import *
 from PyQt5.QtWidgets import QFileDialog
@@ -98,7 +98,7 @@ def GUI():
         Dialog.show()
         sys.exit(app.exec_())
         
-def checkAlpha(self,lettre):
+def checkAlphabet(self,lettre):
         #Entree : une lettre
         # Sortie : un boolean
         # But : verifier qu'on mettent bien un carcatère alphabetique
