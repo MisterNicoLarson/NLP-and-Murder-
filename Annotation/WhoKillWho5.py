@@ -7,8 +7,10 @@ import nltk
 from nltk.corpus import wordnet
 import xml.etree.ElementTree  as ET
 
-
+#cette liste contient les mots avec le champ lexical du meurtre.
 kill = [ "kill" , "dismember" , "murder" , "strangle" , "assasinate" , "shot" , "shoot"]
+
+#cette liste contient tous les noms en rapport avec la date (jour de la semaine et mois)
 mouthDay = [ "Monday",
              "Tuesday",
              "Wednesday",
@@ -30,8 +32,10 @@ mouthDay = [ "Monday",
              "December",
              ]
 
-
+#cette liste contient des mots qui peuvent indiquer des sujets (comme les pronoms relatifs)
 cible = [ "him" , "her" , "them" , "by" ]
+
+#permet de savoir si un mot est une année (4 chiffres)
 date = re.compile('^[0-9]{4}$',re.IGNORECASE)
 
 
@@ -39,19 +43,26 @@ date = re.compile('^[0-9]{4}$',re.IGNORECASE)
 
 
 
-
+#Indique si le mot en paramètre est un nom de lieu
 def isALocation(word):
+    #on enlève les signes "_"
     word = word.replace(" ","_")
-    synsets=wordnet.synsets(word)
+    
+    #on tague le mot pour ensuite analyser sa nature
+    synsets = wordnet.synsets(word)
     location = wordnet.synset('location.n.01')
+    
+    #si la nature de ce mot (ou de ses composants) est une localisation,
+    #alors on renvoie "True"
     for s in synsets:
         for h in s.common_hypernyms(location):
             if location==h:
                 return True
-  
+      
+    #sinon on renvoie "False"
     return False
 
-
+#Permet de taguer un texte : renvoie une liste contenant chaque mot de ce texte, associé à un tag (nom commun, verbe, etc.)
 def tokenTag(doc):
     # Entree : un texte
     # Sortie : une liste de token avec leur tag
@@ -61,7 +72,7 @@ def tokenTag(doc):
     return doc
 
 
-# on va retirer tout ce qui va compliquer inutilement la lecture
+#Va retirer tout ce qui va compliquer inutilement la lecture
 def purge(doc):
     
     result = "";
@@ -75,16 +86,12 @@ def purge(doc):
         elif mot == '}' or mot == '>':
             flag = True;
         elif flag:
-            
+            #on enlève aussi les signes comme :  ' , [ , ] , = .
             if (mot not in ['\'','[',']','=']):
                 result += mot;
             
-            #on retire ensuite les ponctuations inutiles
-            #if mot not in [ ';' , ':' , '\'']:
                 
-    
-    #le texte est enfin "nettoyé"
-    #print(result)
+    #la fonction renvoie enfin le texte "nettoyé"
     return result
 
 
@@ -98,20 +105,19 @@ def tri(doc):
     
     list1 = []
     list2 = []
-    listAlpha = []
-    listBeta = []
+    listAlpha = []  #cette liste contiendra les mots et les dates, associés chacun avec leur localisation dans le texte
+    listBeta = []   #cette liste contiendra les mots et les lieux, associés chacun avec leur localisation dans le texte
     
-    ING = re.compile('.*ing$',re.IGNORECASE)
-    ED = re.compile('.*ed$',re.IGNORECASE)
-    YY = re.compile('.*y$',re.IGNORECASE)
-    II = re.compile('.*i$',re.IGNORECASE)
+    ING = re.compile('.*ing$',re.IGNORECASE)    #indique si un mot se termine par "ing"
+    ED = re.compile('.*ed$',re.IGNORECASE)      #indique si un mot se termine par "ed"
+    YY = re.compile('.*y$',re.IGNORECASE)       #indique si un mot se termine par "y"
+    II = re.compile('.*i$',re.IGNORECASE)       #indique si un mot se termine par "i"        
+    KK = re.compile('.*k$',re.IGNORECASE)       #indique si un mot se termine par "k"
+    SS = re.compile('.*s$',re.IGNORECASE)       #indique si un mot se termine par "s"
+    VV = re.compile('.*v$',re.IGNORECASE)       #indique si un mot se termine par "v"
     
-    KK = re.compile('.*k$',re.IGNORECASE)
-    SS = re.compile('.*s$',re.IGNORECASE)
-    VV = re.compile('.*v$',re.IGNORECASE)
-    
-    lien = re.compile('Category(:[0-9]{4})?',re.IGNORECASE)
-    lien1 = re.compile('.*\|.*',re.IGNORECASE)
+    lien = re.compile('Category(:[0-9]{4})?',re.IGNORECASE)       #indique les mots contenant "Catégorie:"
+    lien1 = re.compile('.*\|.*',re.IGNORECASE)                    #indique les mots avec un pipe |
     
     flag0 = True
     flag1 = False
@@ -125,19 +131,16 @@ def tri(doc):
     nb = -1 
     step = 0
     
+    #on parcourt tout le texte en paramètre...
     for mot in doc:
         
-        #tueur_nom = ""
         
         marqueur += 1
         nb += 1
         
         lexeme = mot[0]
         classe = mot[1]
-        
-        
-        
-            
+ 
         #on supprime des mots inutiles comme Catégorie ou de forme XX|XX
         if (not lien.match(lexeme)) and (not lien1.match(lexeme)) :
             
@@ -313,26 +316,13 @@ def tri(doc):
             if (date.match(lexeme)):
                 stock = (lexeme,marqueur)
                 listAlpha.append(stock)
-            
-            """
-            if (classe in nom_propre) and (lexeme not in mouthDay):
-                if isALocation(lexeme):
-                    print(lexeme)
-                    stock = (lexeme,marqueur)
-                    listBeta.append(stock)
-            """
-            """    
-            if (lexeme in ['.' , ';' , ':']):
-                stock = (lexeme,marqueur)
-                listAlpha.append(stock)
-                marqueur += 50
-            """    
+
     #on retourne une liste qui contient tous les groupes enregistrés
     #on retourne aussi une liste qui contient les noms propres associés à leur position dans le texte
     return list1,listAlpha,listBeta,tueur_nom
 
 
-#associe les noms propres à un indice temporel
+#Associe les noms propres à un indice temporel
 def temporel(doc):
     
     result = []
@@ -340,7 +330,7 @@ def temporel(doc):
     date1 = ""
     date2 = ""
     
-    
+    #on parcourt une liste contenant des mots et des dates, associés à leur localisation dans le texte de départ
     for groupe in doc:
 
         #si on lie une date...
@@ -397,7 +387,7 @@ def localisation(doc):
     lieu1 = ""
     lieu2 = ""
     
-    
+    #on parcourt une liste contenant des mots et des lieux, associés à leur localisation dans le texte de départ
     for groupe in doc:
 
         #si on lie un lieu...
@@ -447,12 +437,13 @@ def localisation(doc):
 
 
             
-#associe les noms propres aux victimes du tueur (en suivant les mots en rapport avec le meurtre)
+#Associe les noms propres aux victimes du tueur (suivant les mots en rapport avec le meurtre)
 def association(doc):
     victim = []
     result = []
     flag1 = False
     
+    #on parcourt une liste de mots...
     for group in doc:
         
             if (not group) == False:
@@ -487,7 +478,7 @@ def association(doc):
     return result
 
 
-#garde les noms propres associés à une date/lieu, suivant la liste des victimes
+#Associe les noms propres associés à une date, avec la liste des vrai victimes
 def deduction1(doc1,doc2):
     result = []
     
@@ -503,7 +494,7 @@ def deduction1(doc1,doc2):
         
     return result
 
-
+#Associe les noms propres associés à un lieu, avec la liste des vrai victimes (associées à une date)
 def deduction2(doc1,doc2):
     result = []
     for raw1 in doc1:
@@ -519,7 +510,8 @@ def deduction2(doc1,doc2):
                 
     return result
 
-#retire les doublons
+
+#Enleve tous les doublons
 def nettoyage(doc):
     
     original = []
@@ -532,34 +524,54 @@ def nettoyage(doc):
             
     return result
     
-
+#Traite un texte donné puis renvoie :
+#  - le nom du tueur de ce texte
+#  - ses victimes avec :
+#       • leur nom
+#       • leur date
+#       • leur lieu (si possible)
 def execution(text1):
-    #text1 = recuperationText(text0)
+    
+    #on nettoie le texte, puis on le tague
     text2 = purge(text1)
     text3 = tokenTag(text2)
+    
+    #on en récupère des listes et le nom du tueur
     text4,textA,textB,tueur_nom = tri(text3)
     
+    #une liste va permettre de retrouver le nom des victimes (text4)
     text5 = association(text4)
+    
+    #une liste va permettre de retrouver la date de leur meurtre  (textA)
     textA1 = temporel(textA)
+    
+    #une liste va permettre de retrouver le lieur de leur meurtre  (textB)
     textB1 = localisation(textB)
     
+    #on joint le nom des victimes avec la date de leur meurtre
     textFA1 = deduction1(textA1,text5)
     textFA2 = nettoyage(textFA1)
     
+    #on joint le nom des victimes avec la lieu de leur meurtre
     textFB1 = deduction1(textB1,text5)
     textFB2 = nettoyage(textFB1)
     
+    #on joint le nom des victimes, la date de leur meurtre et leur lieu
     textFF = deduction2(textFA2,textFB2)
     
+    #on renvoie le résultat
     return textFF,tueur_nom
     
-
+    
+#Indique si la première lettre du tueur et la même que celle recherchée
 def identite(tueur_nom,lettre):
     
+    #on sépare le(s) nom(s) (s'il est composé de plusieurs mots)
     liste = tueur_nom.split()
     courant = []
     listeListe = []
     
+    #S'il y a un "and", on sépare les deux noms présents dans une liste respective (une partie)
     for raw in liste:
         
         courant.append(raw)
@@ -570,8 +582,11 @@ def identite(tueur_nom,lettre):
             
     listeListe.append(courant)
     
+    #Pour chaque partie, on compare la première lettre de chaque mot avec celle recherchée
     for partie in listeListe:
-    
+        
+        #on ignore le premier mot car il s'agit normalement d'un prénom (et non d'un nom de famille)
+        #si le nom du tueur est composé d'un seul mot, on fait exception à cette règle
         flag = ( len(partie) == 1 )
         
         for raw in partie:
@@ -579,10 +594,12 @@ def identite(tueur_nom,lettre):
             if flag == False:
                 flag = True
             else:
+                #la première lettre du mot est analisé pour savoir s'il s'agit bien d'une majuscule,
+                #s'il s'agit de la lettre recherchée et si ce n'est pas d'un titre (comme Von ou Van)
                 if (65 <= ord(raw[0])) and (ord(raw[0]) <= 90) and (raw[0] == lettre) and (raw not in ['Von','Van']) :
                     return True
 
-    
+    #si ses conditions n'ont pas été répondu au final, le programme renvoie False
     return False
 
 
@@ -596,6 +613,7 @@ text1 = txt + '.xml'
 text1 = "Chandrakant_Jha.xml"
 """
 
+#prend une lettre et va alors lire une liste de tueurs
 def lectureList(lettre):
     txt1 = "enSK.xml"
     txt2 = recuperationText(txt1)
@@ -605,15 +623,21 @@ def lectureList(lettre):
     flag1 = False
     listFinal = []
     
+    #on parcourt mot par mot cette liste, puis on les segmente en texte : chacun décrit un tueur en particulier
+    
     for mot in txt2:
         
 
         #Chaque tueur commence avec une '*' et on ne lit qu'à partir de ce caractère (si on retire ce qu'il y a avant cette liste)
         if mot == '*' and ((not txt3) == False):
+            
+            #on traite chaque texte pour en extraire, le nom du tueur et celui de ses victimes (date et lieu)
             if flag:
                 result,tueur_nom = execution(txt3)
                 
+                #on ne garde le résultat s'il n'est pas vide et si le tueur n'a pas un nom de lieu (ce qui génèrerait des effets indésirables)
                 if ((not result) == False) and tueur_nom != "" and (isALocation(tueur_nom) == False):
+                    #suivant la première lettre de son/ses nom(s) (de famille), on traite ce texte ou non
                     if identite(tueur_nom,lettre):
                         listFinal.append( (tueur_nom,result) )
                 """
@@ -635,9 +659,11 @@ def lectureList(lettre):
             
             if flag1 == False:
                 txt3 += mot
-                
+    
+    #le programme renvoie une liste, de listes contenant chacune le nom d'un tueur et une liste de ses victimes (nom, date et lieu)
     return listFinal
 
+#prend une lettre et une liste de tueurs
 def lectureList(lettre,text):
    
     txt3 = ""
@@ -651,10 +677,14 @@ def lectureList(lettre,text):
 
         #Chaque tueur commence avec une '*' et on ne lit qu'à partir de ce caractère (si on retire ce qu'il y a avant cette liste)
         if mot == '*' and ((not txt3) == False):
+            
+            #on traite chaque texte pour en extraire, le nom du tueur et celui de ses victimes (date et lieu)
             if flag:
                 result,tueur_nom = execution(txt3)
                 
+                #on ne garde le résultat s'il n'est pas vide et si le tueur n'a pas un nom de lieu (ce qui génèrerait des effets indésirables)
                 if ((not result) == False) and tueur_nom != "" and (isALocation(tueur_nom) == False):
+                    #suivant la première lettre de son/ses nom(s) (de famille), on traite ce texte ou non
                     if identite(tueur_nom,lettre):
                         listFinal.append( (tueur_nom,result) )
                 """
@@ -676,9 +706,12 @@ def lectureList(lettre,text):
             
             if flag1 == False:
                 txt3 += mot
-                
+    
+    #le programme renvoie une liste, de listes contenant chacune le nom d'un tueur et une liste de ses victimes (nom, date et lieu)
     return listFinal
 
+
+#Affiche le résultat du traitement de manière esthétique et présentable
 def affichage(doc):
     print('\n')
     for raw in doc:
@@ -690,6 +723,7 @@ def affichage(doc):
                 victime += " : " + mot[2]
             print(victime)
         print('\n')
+
 
 """
 print("Veuillez rentrer une lettre :")
