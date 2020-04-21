@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WhoKillWho</class>
+ <widget class="QDialog" name="WhoKillWho">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Who Kill Who</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">.WhoKillWho{
+ background-color: yellow
+}</string>
+  </property>
+  <widget class="QPushButton" name="butChgFileXML">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>60</y>
+     <width>161</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Charger Fichier</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butTransfoXML">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>60</y>
+     <width>181</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Charger le resultat</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butQuitter">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>530</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="scrollRes">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>266</y>
+     <width>711</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>709</width>
+      <height>229</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="labRes">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="labGetLettre">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>220</y>
+     <width>181</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Entrer une lettre :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="getLettre">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>220</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="maxLength">
+    <number>1</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labInfo">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>130</y>
+     <width>501</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
