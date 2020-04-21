@@ -11,7 +11,7 @@ while reponse != str(1) and reponse !=str(2):
 
     #Methode par ligne
 if reponse == str(1):
-    execution('XML/corpus.xml')
+    executionScript()
     
     #Methode par interface graphique
 if reponse == str(2):

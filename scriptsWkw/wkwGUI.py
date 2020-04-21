@@ -96,7 +96,7 @@ class Ui_WhoKillWho(object):
         if (cdtLettre == True and cdtRes == False):
             self.labInfo.setText("Cela peut prendre quelquse minutes nous vous prions de patienter")
             texte = self.labRes.text()
-            result = lectureList(lettre.upper(),texte)
+            result = lectureListe(lettre.upper(),texte)
             resultat = affichage(result,lettre.upper())
             self.labRes.setText(resultat)
             self.labRes.adjustSize()

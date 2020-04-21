@@ -6,7 +6,7 @@ import re
 import nltk
 from nltk.corpus import wordnet
 import xml.etree.ElementTree  as ET
-from files import *
+from file import *
 
 #cette liste contient les mots avec le champ lexical du meurtre.
 kill = [ "kill" , "dismember" , "murder" , "strangle" , "assasinate" , "shot" , "shoot"]
@@ -531,8 +531,7 @@ def nettoyage(doc):
 #       • leur nom
 #       • leur date
 #       • leur lieu (si possible)
-def execution(path):
-    text
+def execution(text1):
     
     #on nettoie le texte, puis on le tague
     text2 = purge(text1)
@@ -607,7 +606,7 @@ def identite(tueur_nom,lettre):
 
 #prend une lettre et va alors lire une liste de tueurs
 def lectureList(lettre):
-    txt1 = "enSK.xml"
+    txt1 = "XML/corpus.xml"
     txt2 = recuperationText(txt1)
     txt3 = ""
     nb = 0
@@ -649,7 +648,7 @@ def lectureList(lettre):
     return listFinal
 
 #prend une lettre et une liste de tueurs
-def lectureList(lettre,text):
+def lectureListe(lettre,text):
     # Entree : une lettre et un texte brute
     # Sortie : un texte
     # But : on a une surcharge de la fonction lecturelist car celle ci va avoir pour but d'afficher les resultats dans le label labRes
@@ -713,3 +712,13 @@ def affichage(doc,lettre):
             aff = aff+victime+'\n'
     return(aff)
 
+def executionScript():
+    print("Veuillez rentrer une lettre :")
+    lettre = input()
+    lettre = lettre.upper()
+    print('\n')
+    print("Merci d'attendre quelques secondes...")
+    print('\n')
+    result = lectureList(lettre)
+    print("Liste de votre recherche :")
+    affichage(result,lettre)

@@ -615,7 +615,7 @@ text1 = "Chandrakant_Jha.xml"
 
 #prend une lettre et va alors lire une liste de tueurs
 def lectureList(lettre):
-    txt1 = "enSK.xml"
+    txt1 = "XML/corpus.xml"
     txt2 = recuperationText(txt1)
     txt3 = ""
     nb = 0
@@ -748,3 +748,14 @@ text5 = association(text4)
 textF = deduction(textB,text5)
 print(textF)
 """
+
+def executionScript():
+	print("Veuillez rentrer une lettre :")
+	lettre = input()
+	lettre = lettre.upper()
+	print('\n')
+	print("Merci d'attendre quelques secondes...")
+	print('\n')
+	result = lectureList(lettre)
+	print("Liste de votre recherche :")
+	affichage(result)
