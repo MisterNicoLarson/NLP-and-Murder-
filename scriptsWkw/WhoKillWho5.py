@@ -661,12 +661,13 @@ def lectureListe(lettre,text):
     
     for mot in text:
         
-
+        
         #Chaque tueur commence avec une '*' et on ne lit qu'à partir de ce caractère (si on retire ce qu'il y a avant cette liste)
         if mot == '*' and ((not txt3) == False):
             
             #on traite chaque texte pour en extraire, le nom du tueur et celui de ses victimes (date et lieu)
             if flag:
+                
                 result,tueur_nom = execution(txt3)
                 
                 #on ne garde le résultat s'il n'est pas vide et si le tueur n'a pas un nom de lieu (ce qui génèrerait des effets indésirables)
@@ -693,7 +694,7 @@ def lectureListe(lettre,text):
             
             if flag1 == False:
                 txt3 += mot
-    
+
     #le programme renvoie une liste, de listes contenant chacune le nom d'un tueur et une liste de ses victimes (nom, date et lieu)
     return listFinal
 
@@ -721,4 +722,6 @@ def executionScript():
     print('\n')
     result = lectureList(lettre)
     print("Liste de votre recherche :")
-    affichage(result,lettre)
+    final = affichage(result,lettre)
+    print(final)
+    
