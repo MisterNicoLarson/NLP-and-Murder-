@@ -53,3 +53,15 @@ def isMurder(word):
           if k==h:
             return True
   return False
+
+def isAPerson(word):
+  word = word.replace(" ","_")
+  synsets=wordnet.synsets(word)
+  persons =[wordnet.synset('people.n.01'),wordnet.synset('person.n.01')]
+  for s in synsets:
+    for p in persons:
+        for h in s.common_hypernyms(p): 
+            if p==h:
+                return True
+  
+  return False
