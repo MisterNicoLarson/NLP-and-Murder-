@@ -10,8 +10,8 @@
 from PyQt5 import *
 from PyQt5.QtWidgets import QFileDialog
 from WhoKillWho5 import *
-from file import*
-from WkW import*
+from file import *
+from WkW import *
 
 
 #######################################################################################################
@@ -98,13 +98,9 @@ class Ui_WhoKillWho(object):
         if (cdtLettre == True and cdtRes == False):
             self.labInfo.setText("Cela peut prendre quelquse minutes nous vous prions de patienter")
             texte = self.labRes.text()
-            result = showPurgedText(texte)
-            resultat = '\n'.join(result)
-            self.labRes.setText(resultat)
+            result = pickALetter(texte,texte)# on recupere le texte xml non traité
+            self.labRes.setText(result)
             self.labRes.adjustSize()
-            texte = self.labRes.text() # on recupere le texte xml non traité
-            result = lectureListe(lettre.upper(),texte)
-            resultat = affichage(result,lettre.upper())
             self.labRes.setText(resultat) # permet de mettre dans le label le resulat
             self.labRes.adjustSize() # permet de faire varier la taille du label en fonction du resultat (rendu dynamique)
 
