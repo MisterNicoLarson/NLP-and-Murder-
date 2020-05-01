@@ -98,12 +98,10 @@ class Ui_WhoKillWho(object):
         if (cdtLettre == True and cdtRes == False):
             self.labInfo.setText("Cela peut prendre quelquse minutes nous vous prions de patienter")
             texte = self.labRes.text()
-            result = pickALetter(texte,texte)# on recupere le texte xml non traité
+            result = pickALetter(lettre,texte)# on recupere le texte xml non traité
+            print("Voici result "+result)
             self.labRes.setText(result)
             self.labRes.adjustSize()
-            self.labRes.setText(resultat) # permet de mettre dans le label le resulat
-            self.labRes.adjustSize() # permet de faire varier la taille du label en fonction du resultat (rendu dynamique)
-
         else:
             self.labInfo.setText("Verifier que vous ayez bien charger un fichier et que vous ayez rentré une lettre ")
             self.labInfo.adjustSize()
