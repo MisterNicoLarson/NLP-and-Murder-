@@ -101,4 +101,4 @@ def pickALetter(letter,text):
 # In[336]:
 
 
-print(pickALetter('J'))
+
