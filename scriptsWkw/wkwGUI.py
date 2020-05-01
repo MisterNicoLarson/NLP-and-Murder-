@@ -81,7 +81,7 @@ class Ui_WhoKillWho(object):
     def chgtFichier(self):
         # Bouton : ouvre une boite de dialogue pour recuperer le path
        filename = QFileDialog.getOpenFileName(None,"Open File"," ","*.xml")# filename est un tuple
-       svgStr(filename[0]) # on recupere dasn le tuple l'info en 0 qui correspond au path
+       svgStr(filename[0]) # on recupere dasn le tuple l'info en 0 qui correspond au path et le dans un fichier texte
        path = reedStr()
        text = recuperationText(path)
        self.labRes.setText(text)
