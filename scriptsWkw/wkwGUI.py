@@ -10,7 +10,8 @@
 from PyQt5 import *
 from PyQt5.QtWidgets import QFileDialog
 from WhoKillWho5 import *
-from file import *
+from file import*
+from WkW import*
 
 
 #######################################################################################################
@@ -61,8 +62,8 @@ class Ui_WhoKillWho(object):
         QtCore.QMetaObject.connectSlotsByName(WhoKillWho)
         
         #Action des bouttons :
-        self.butChgFileXML.clicked.connect(self.chgtFichier)
-        self.butTransfoXML.clicked.connect(self.transfoXML)
+        self.butChgFileXML.clicked.connect(self.chgtFichier) # permet de garder le path du fichier xml
+        self.butTransfoXML.clicked.connect(self.transfoXML) # permet le traitement et l'affichage de se dossier xml
         self.butQuitter.clicked.connect(WhoKillWho.close)
         
 
@@ -80,11 +81,12 @@ class Ui_WhoKillWho(object):
 
     def chgtFichier(self):
         # Bouton : ouvre une boite de dialogue pour recuperer le path
+        # 
        filename = QFileDialog.getOpenFileName(None,"Open File"," ","*.xml")# filename est un tuple
        svgStr(filename[0]) # on recupere dasn le tuple l'info en 0 qui correspond au path et le dans un fichier texte
        path = reedStr()
        text = recuperationText(path)
-       self.labRes.setText(text)
+       self.labRes.setText(text) # on met le texte xml non oté dans notre labRes
        self.labRes.adjustSize()
        
     def transfoXML(self):
@@ -95,11 +97,19 @@ class Ui_WhoKillWho(object):
         cdtRes = (self.labRes.text() == "")
         if (cdtLettre == True and cdtRes == False):
             self.labInfo.setText("Cela peut prendre quelquse minutes nous vous prions de patienter")
+<<<<<<< HEAD
             texte = self.labRes.text()
-            result = lectureListe(lettre.upper(),texte)
-            resultat = affichage(result,lettre.upper())
+            result = showPurgedText(texte)
+            resultat = '\n'.join(result)
             self.labRes.setText(resultat)
             self.labRes.adjustSize()
+=======
+            texte = self.labRes.text() # on recupere le texte xml non traité
+            result = lectureListe(lettre.upper(),texte)
+            resultat = affichage(result,lettre.upper())
+            self.labRes.setText(resultat) # permet de mettre dans le label le resulat
+            self.labRes.adjustSize() # permet de faire varier la taille du label en fonction du resultat (rendu dynamique)
+>>>>>>> 5b29caabb22e13df1f7c955c52dc6039adbfedf9
         else:
             self.labInfo.setText("Verifier que vous ayez bien charger un fichier et que vous ayez rentré une lettre ")
             self.labInfo.adjustSize()

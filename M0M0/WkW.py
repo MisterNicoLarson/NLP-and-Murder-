@@ -5,11 +5,12 @@
 import syntaxical_analysis,text_pretreatment
 import nltk
 
-pathFile = "essai.xml"
-path = "WhoKilledWho/listSerialKiller.xml"
-text = text_pretreatment.recuperationText(path)
-sentences=text_pretreatment.purge(text)
-sentences=text_pretreatment.secondPurgeAndTokenize(sentences)
+
+def showPurgedText(text):
+    sentences=text_pretreatment.secondPurgeAndTokenize(sentences)
+    return sentences
+
+
 #We now have a tokenized text without all the XML structure elements
 cases= text_pretreatment.sortByCountries(sentences)
 copy_dict={}
