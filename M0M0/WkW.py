@@ -84,19 +84,19 @@ def pickALetter(letter,text):
             
 
 
-        letter=letter.upper()
-        result=""
-        for country in cases:
-            for killer in cases[country]:
-                goodFirstLetter=False
-                tok_name=nltk.word_tokenize(killer)
-                for word in tok_name:
-                    if word[0].upper()==letter:
-                        goodFirstLetter=True
-                if goodFirstLetter:
-                    result+=(killer+" murdered "+file[country][killer]['victims']+", "+file[country][killer]['crime_place']+" , "+file[country][killer]['crime_time'])+"\n"
+    letter=letter.upper()
+    data=""
+    for country in cases:
+        for killer in cases[country]:
+            goodFirstLetter=False
+            tok_name=nltk.word_tokenize(killer)
+            for word in tok_name:
+                if word[0].upper()==letter:
+                    goodFirstLetter=True
+            if goodFirstLetter:
+                data+=(killer+" murdered "+file[country][killer]['victims']+", "+file[country][killer]['crime_place']+" , "+file[country][killer]['crime_time'])+"\n"
                     
-    return result
+    return data
 
 # In[336]:
 
