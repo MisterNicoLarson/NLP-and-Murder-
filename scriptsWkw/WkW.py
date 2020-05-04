@@ -85,7 +85,7 @@ def pickALetter(letter,text):
 
 
     letter=letter.upper()
-    data=""
+    data="Here is a list of killers with a name beginning by "+letter+" and informations about their crimes"
     for country in cases:
         for killer in cases[country]:
             goodFirstLetter=False
