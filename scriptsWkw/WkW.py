@@ -100,5 +100,3 @@ def pickALetter(letter,text):
 
 # In[336]:
 
-text = text_pretreatment.recuperationText('../M0M0/WhoKilledWho/listSerialKiller.xml')
-print(pickALetter('J', text))
