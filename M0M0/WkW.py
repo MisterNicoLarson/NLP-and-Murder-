@@ -100,5 +100,5 @@ def pickALetter(letter,text):
 
 # In[336]:
 
-
-
+text = text_pretreatment.recuperationText('WhoKilledWho/listSerialKiller.xml')
+print(pickALetter('J', text))
