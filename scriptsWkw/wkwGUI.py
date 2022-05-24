@@ -8,7 +8,7 @@
 
 
 from PyQt5 import *
-from PyQt5.QtWidgets import QFileDialog
+from PyQt5.QtWidgets import QFileDialog,QtGui,QtCore,QtWidgets
 from WhoKillWho5 import *
 from file import *
 from WkW import *
